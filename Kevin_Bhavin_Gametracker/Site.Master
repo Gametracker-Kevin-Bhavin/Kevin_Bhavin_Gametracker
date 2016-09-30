@@ -35,10 +35,9 @@
 
                     <ul class="nav navbar-nav navbar-right">
                         <li id="home" runat="server"><a href="Default.aspx"><i class="fa fa-home fa-lg"></i>  Home</a></li>
-                        <li id="projects" runat="server"><a href="Projects.aspx"><i class="fa fa-th fa-lg"></i>  Projects</a></li>
-                        <li id="services" runat="server"><a href="Services.aspx"><i class="fa fa-gear fa-lg"></i>  Services</a></li>
-                        <li id="about" runat="server"><a href="About.aspx"><i class="fa fa-info fa-lg"></i>  About</a></li>
-                        <li id="contact" runat="server"><a href="Contact.aspx"><i class="fa fa-phone fa-lg"></i>  Contact</a></li>
+                        <li id="projects" runat="server"><a href="Games.aspx"><i class="fa fa-th fa-lg"></i>  Games</a></li>
+                        <li id="services" runat="server"><a href="Register.aspx"><i class="fa fa-gear fa-lg"></i>  Register</a></li>
+                        <li id="about" runat="server"><a href="Login.aspx"><i class="fa fa-info fa-lg"></i>  Login</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->

@@ -32,9 +32,6 @@ namespace Kevin_Bhavin_Gametracker
                 case "About":
                     about.Attributes.Add("class", "active");
                     break;
-                case "Contact":
-                    contact.Attributes.Add("class", "active");
-                    break;
             }
         }
     }

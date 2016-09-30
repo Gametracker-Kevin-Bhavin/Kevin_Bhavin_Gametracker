@@ -7,13 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Kevin_Bhavin_Gametracker
-{
-
-
-    public partial class Site
-    {
-
+namespace Kevin_Bhavin_Gametracker {
+    
+    
+    public partial class Site {
+        
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -22,7 +20,7 @@ namespace Kevin_Bhavin_Gametracker
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
+        
         /// <summary>
         /// home control.
         /// </summary>
@@ -31,7 +29,7 @@ namespace Kevin_Bhavin_Gametracker
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl home;
-
+        
         /// <summary>
         /// projects control.
         /// </summary>
@@ -40,7 +38,7 @@ namespace Kevin_Bhavin_Gametracker
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl projects;
-
+        
         /// <summary>
         /// services control.
         /// </summary>
@@ -49,7 +47,7 @@ namespace Kevin_Bhavin_Gametracker
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl services;
-
+        
         /// <summary>
         /// about control.
         /// </summary>
@@ -58,16 +56,7 @@ namespace Kevin_Bhavin_Gametracker
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl about;
-
-        /// <summary>
-        /// contact control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl contact;
-
+        
         /// <summary>
         /// MainContent control.
         /// </summary>
