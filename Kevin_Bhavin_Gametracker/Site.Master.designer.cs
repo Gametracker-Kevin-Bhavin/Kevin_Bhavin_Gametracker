@@ -31,31 +31,31 @@ namespace Kevin_Bhavin_Gametracker {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl home;
         
         /// <summary>
-        /// projects control.
+        /// games control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl projects;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl games;
         
         /// <summary>
-        /// services control.
+        /// register control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl services;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl register;
         
         /// <summary>
-        /// about control.
+        /// login control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl about;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl login;
         
         /// <summary>
         /// MainContent control.

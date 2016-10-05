@@ -23,14 +23,14 @@ namespace Kevin_Bhavin_Gametracker
                 case "Home":
                     home.Attributes.Add("class", "active");
                     break;
-                case "Projects":
-                    projects.Attributes.Add("class", "active");
+                case "Game":
+                    games.Attributes.Add("class", "active");
                     break;
-                case "Services":
-                    services.Attributes.Add("class", "active");
+                case "Register":
+                    register.Attributes.Add("class", "active");
                     break;
-                case "About":
-                    about.Attributes.Add("class", "active");
+                case "Login":
+                    login.Attributes.Add("class", "active");
                     break;
             }
         }

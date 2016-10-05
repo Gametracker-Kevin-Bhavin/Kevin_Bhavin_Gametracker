@@ -1,0 +1,16 @@
+﻿.navbar-nav{
+    display:inline-block;
+    float:none;
+}
+
+.navbar-center{
+    text-align: center !important;
+}
+
+.navbar-brand{
+    text-align: center !important;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    float: none;
+    font-size: 20px;
+}

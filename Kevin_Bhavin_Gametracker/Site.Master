@@ -12,6 +12,7 @@
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="Content/CustomStyleSheet.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -27,19 +28,18 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="Default.aspx"><i class="fa fa-fort-awesome fa-lg"></i>  Example ASP.NET Site</a>
+                    
+                </div>
+                <div class="nav navbar-center" id="myNavbar"> <br />
+                <a class="navbar-brand" href="#">Leauge Tracker</a><br />
+                <ul class="nav navbar-nav">
+                    <li class="active" id="home" runat="server"><a href="Default.aspx"><i class="fa fa-home fa-lg"></i>  Home</a></li>
+                    <li id="games" runat="server"><a href="Games.aspx"><i class="fa fa-th fa-lg"></i>  Games</a></li>
+                    <li id="register" runat="server"><a href="Register.aspx"><i class="fa fa-gear fa-lg"></i>  Register</a></li>
+                    <li id="login" runat="server"><a href="Login.aspx"><i class="fa fa-info fa-lg"></i>  Login</a></li>
+                </ul>
                 </div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-                    <ul class="nav navbar-nav navbar-right">
-                        <li id="home" runat="server"><a href="Default.aspx"><i class="fa fa-home fa-lg"></i>  Home</a></li>
-                        <li id="projects" runat="server"><a href="Games.aspx"><i class="fa fa-th fa-lg"></i>  Games</a></li>
-                        <li id="services" runat="server"><a href="Register.aspx"><i class="fa fa-gear fa-lg"></i>  Register</a></li>
-                        <li id="about" runat="server"><a href="Login.aspx"><i class="fa fa-info fa-lg"></i>  Login</a></li>
-                    </ul>
-                </div>
                 <!-- /.navbar-collapse -->
             </div>
             <!-- /.container-fluid -->
@@ -54,7 +54,7 @@
     <!-- Footer -->
     <nav class="navbar navbar-default navbar-fixed-bottom">
         <div class="container">
-            <h4>&copy; 2016 - Example ASP.NET Site - All Rights Reserved</h4>
+            <h4>&copy; 2016 - 300702645, Jan Kevin Munar, 300861065, Bhavin Master - All Rights Reserved</h4>
         </div>
     </nav>
 
