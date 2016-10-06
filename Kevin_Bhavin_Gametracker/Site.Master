@@ -14,6 +14,15 @@
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
     <link href="Content/CustomStyleSheet.css" rel="stylesheet" />
 </head>
+    <!-- Author: Jan Kevin Munar & Bhavin Master
+        ID: 300702645 & 300861065
+        Date: 9/28/2016
+
+        Version History:
+        9/28/2016: Initial creation and first edits based on Lesson 3 template.
+        10/5/2016: Navbar changes and addition of logos.
+         -->
+
 <body>
     <form id="form1" runat="server">
 
@@ -31,12 +40,22 @@
                     
                 </div>
                 <div class="nav navbar-center" id="myNavbar"> <br />
+                <!-- Navbar Application Name-->
                 <a class="navbar-brand" href="#">Leauge Tracker</a><br />
+                <!-- Bhavin logo with link to his portfolio-->
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="logopic"><a href="http://bhavinmasterportfolio.azurewebsites.net/"><img src="Assets/images/bhavinlogo.png" height="100" width="133"/></a></li>
+                </ul>
+                <!-- Main navigation tabs-->
                 <ul class="nav navbar-nav">
                     <li class="active" id="home" runat="server"><a href="Default.aspx"><i class="fa fa-home fa-lg"></i>  Home</a></li>
                     <li id="games" runat="server"><a href="Games.aspx"><i class="fa fa-th fa-lg"></i>  Games</a></li>
                     <li id="register" runat="server"><a href="Register.aspx"><i class="fa fa-gear fa-lg"></i>  Register</a></li>
                     <li id="login" runat="server"><a href="Login.aspx"><i class="fa fa-info fa-lg"></i>  Login</a></li>
+                </ul>
+                <!-- Kevin logo with link to his portfolio-->
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="logopic"><a href="http://e-portfolio-jankevinmujnar.azurewebsites.net/"><img src="Assets/images/kevinlogo.png"  height="100" width="133"/></a></li>
                 </ul>
                 </div>
 

@@ -1,4 +1,14 @@
-﻿.navbar-nav{
+﻿/*
+    Author: Jan Kevin Munar
+    ID: 300702645
+    Date: 10/5/2016
+    
+    Version History:
+    10/5/2016: Initial File creation and first functions implementation.
+*/
+
+/*Navbar centering tweaks*/
+.navbar-nav{
     display:inline-block;
     float:none;
 }
@@ -13,4 +23,19 @@
     padding-top: 10px;
     float: none;
     font-size: 20px;
+    bottom: 90px !important;
+}
+/*Logo location tweaks*/
+.logopic{
+    vertical-align: top !important;
+    margin-top: -50px;
+}
+
+#games{
+    text-align: center !important;
+}
+
+img{
+    max-width:100%;
+    max-height:100%;
 }
