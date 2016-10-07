@@ -4,6 +4,7 @@
         <div class="row">
             <div class="col-md-offset-3 col-md-6" id="games">
                 <h2>Current Games:</h2>
+                <!--
                 <ul class="pagination pagination-lg" id="weekpages">
                     <li><a href="#">1</a></li>
                     <li><a href="#">2</a></li>
@@ -30,14 +31,12 @@
                             Team 2: <br />
                             Wins 5 Loses 1<br />
                         </div>
-                        
                     </div>
                 </div>
-                
-
             </div>
-            </div>
+            </div>       
            </div>
+           -->
         </div>
 
         </div>
