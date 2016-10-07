@@ -3,8 +3,19 @@
     <div class="conatainer">
         <div class="row">
             <div class="col-md-offset-3 col-md-6" id="games">
-                <h2>Current Games:</h2>
-                <!--
+                <h2>Current Week:</h2>  
+
+
+                <asp:GridView ID="GamesGridView" runat="server" AutoGenerateColumns="false">
+                    <Columns>
+                        <asp:BoundField DataField="gameName" HeaderText="Game Name" Visible="true" />
+                        <asp:BoundField DataField="winteamId" HeaderText="Winning Team" Visible="true" />
+                        <asp:BoundField DataField="loseteamId" HeaderText="Losing Team" Visible="true" />
+                    </Columns>
+                </asp:GridView>
+
+
+                <!-- Dummy Layout Commented out for reference
                 <ul class="pagination pagination-lg" id="weekpages">
                     <li><a href="#">1</a></li>
                     <li><a href="#">2</a></li>
