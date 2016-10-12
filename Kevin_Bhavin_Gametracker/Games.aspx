@@ -4,9 +4,39 @@
         <div class="row">
             <div class="col-md-offset-3 col-md-6" id="games">
                 <h2>Current Week:</h2>  
-
-
-                <asp:GridView ID="GamesGridView" runat="server" AutoGenerateColumns="false">
+                <ul class="pagination pagination-lg" id="weekpages">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                </ul>
+            <div class="col-md-12" runat="server">
+                <div class="panel panel-default" runat="server">
+                    <div class="panel-body" runat="server">
+                        <div class="row"  id="gamesdata" runat="server">
+                            
+                        </div>
+                   </div>
+               </div>
+           </div>
+            </div>
+           
+                <!--
+                <asp:Label ID="testlabel" runat="server"></asp:Label>
+                <asp:Panel ID="testpanel" runat="server" CssClass="panel panel-default">
+                    <div class="panel-heading"><asp:Label ID="testgamename" runat="server" CssClass="h3"></asp:Label></div>
+                    <div class="panel-body">
+                        <asp:Image ID="testteam1logo" runat="server"/>
+                        <h2>VS</h2>
+                        <asp:Image ID="testteam2logo" runat="server" />
+                        <asp:Label ID="team1name" runat="server" CssClass="h4"></asp:Label><br />
+                        Wins:<asp:Label ID="team1wins" runat="server"></asp:Label> &nbsp Loses:<asp:Label ID="team1loses" runat="server"></asp:Label> <br />
+                        <asp:Label ID="team2name" runat="server" CssClass="h4"></asp:Label> <br />
+                        Wins:<asp:Label ID="team2wins" runat="server"></asp:Label> &nbsp Loses:<asp:Label ID="team2loses" runat="server"></asp:Label>
+                     </div>
+                </asp:Panel>  
+                 <asp:GridView ID="GamesGridView" runat="server" AutoGenerateColumns="false">
                     <Columns>
                         <asp:BoundField DataField="gameName" HeaderText="Game Name" Visible="true" />
                         <asp:BoundField DataField="winteamId" HeaderText="Winning Team" Visible="true" />
@@ -15,14 +45,8 @@
                 </asp:GridView>
 
 
-                <!-- Dummy Layout Commented out for reference
-                <ul class="pagination pagination-lg" id="weekpages">
-                    <li><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
-                </ul>
+               Dummy Layout Commented out for reference
+                
             </div>
             <div class="col-md-12">
             <div class="panel panel-default">

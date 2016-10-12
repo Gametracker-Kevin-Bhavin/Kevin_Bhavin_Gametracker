@@ -35,6 +35,11 @@
     text-align: center !important;
 }
 
+#gamesdata{
+    float:left !important;
+    display:none !important;
+}
+
 img{
     max-width:100%;
     max-height:100%;
