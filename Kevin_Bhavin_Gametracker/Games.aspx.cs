@@ -14,6 +14,8 @@ namespace Kevin_Bhavin_Gametracker
 {
     public partial class Services : System.Web.UI.Page
     {
+        protected int currentweekid = 8;
+
         protected void Page_Load(object sender, EventArgs e)
         {
             // load page first time
@@ -24,6 +26,62 @@ namespace Kevin_Bhavin_Gametracker
             }
         }
 
+        protected void week40_Click(Object sender,
+                           EventArgs e)
+        {
+            weekno.Text = "40";
+            this.currentweekid = 8;
+            this.GetGame();
+        }
+
+        protected void week41_Click(Object sender,
+                           EventArgs e)
+        {
+            weekno.Text = "41";
+            this.currentweekid = 9;
+            this.GetGame();
+        }
+
+        protected void week42_Click(Object sender,
+                           EventArgs e)
+        {
+            weekno.Text = "42";
+            this.currentweekid = 10;
+            this.GetGame();
+        }
+
+        protected void week43_Click(Object sender,
+                           EventArgs e)
+        {
+            weekno.Text = "43";
+            this.currentweekid = 11;
+            this.GetGame();
+        }
+
+        protected void week44_Click(Object sender,
+                           EventArgs e)
+        {
+            weekno.Text = "44";
+            this.currentweekid = 12;
+            this.GetGame();
+        }
+
+        protected void week45_Click(Object sender,
+                           EventArgs e)
+        {
+            weekno.Text = "45";
+            this.currentweekid = 13;
+            this.GetGame();
+        }
+
+        protected void week46_Click(Object sender,
+                           EventArgs e)
+        {
+            weekno.Text = "46";
+            this.currentweekid = 14;
+            this.GetGame();
+        }
+
         private void GetGame()
         {
             // Connect to EF
@@ -31,37 +89,12 @@ namespace Kevin_Bhavin_Gametracker
             {
                 Game newgame = new Game();
                 List<Game> gameList = new List<Game>();
-                List<WinningTeam> winteamList = new List<WinningTeam>();
-                List<LosingTeam> loseteamList = new List<LosingTeam>();
-                List<Team> teamList = new List<Team>();
-                List<Team> winteamnamelist = new List<Team>();
-                List<Team> loseteamnamelist = new List<Team>();
-                int currentweekid = 0;
-                var games = (from allgames in database.Games
+
+                var games = (from allgames in database.Games where currentweekid==allgames.gameweekId
                                 select allgames);
                 gameList.AddRange(games);
-                // Testing Label
-                // testlabel.Text = gameList[0].gameName;
-                var winningteam = (from allwinteam in database.WinningTeams
-                                   join b in database.Games on allwinteam.winTeamId equals b.winTeamId
-                                select allwinteam);
-                winteamList.AddRange(winningteam);
-                // Testing Label
-                // testlabel.Text = winteamList[0].wins.ToString();
-                var losingteam = (from allloseteam in database.LosingTeams
-                                   join b in database.Games on allloseteam.loseTeamId equals b.loseTeamId
-                                   select allloseteam);
-                loseteamList.AddRange(losingteam);
-                var team = (from allteams in database.Teams
-                                   select allteams);
-                var winteam = (from allteams in database.Teams
-                               join b in database.WinningTeams on allteams.teamId equals b.teamId
-                            select allteams);
-                winteamnamelist.AddRange(winteam);
-                var loseteam = (from allteams in database.Teams
-                               join b in database.LosingTeams on allteams.teamId equals b.teamId
-                               select allteams);
-                loseteamnamelist.AddRange(loseteam);
+
+
 
                 foreach (var cgame in gameList)
                 {
@@ -108,7 +141,6 @@ namespace Kevin_Bhavin_Gametracker
 
                     // Define winning team loses
                     winteamloses.Text = "Loses: " + cgame.WinningTeam.loses.ToString();
-
                     // The VS text
                     vssign.Text = "VS";
                     vssign.CssClass = "h3";

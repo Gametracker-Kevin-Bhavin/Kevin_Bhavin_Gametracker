@@ -3,14 +3,14 @@
     <div class="conatainer">
         <div class="row">
             <div class="col-md-offset-3 col-md-6" id="games">
-                <h2>Current Week:</h2>  
-                <ul class="pagination pagination-lg" id="weekpages">
-                    <li><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
-                </ul>
+                <h2>Current Week: <asp:Label runat="server" ID="weekno" Text="40"></asp:Label></h2>  
+                <asp:Button CssClass="btn-default" text="40" runat="server"  OnClick="week40_Click"/>
+                <asp:Button CssClass="btn-default" text="41" runat="server" OnClick="week41_Click"/>
+                <asp:Button CssClass="btn-default" text="42" runat="server" OnClick="week42_Click"/>
+                <asp:Button CssClass="btn-default" text="43" runat="server" OnClick="week43_Click"/>
+                <asp:Button CssClass="btn-default" text="44" runat="server" OnClick="week44_Click"/>
+                <asp:Button CssClass="btn-default" text="45" runat="server" OnClick="week45_Click"/>
+                <asp:Button CssClass="btn-default" text="46" runat="server" OnClick="week46_Click"/>
             <div class="col-md-12" runat="server">
                 <div class="panel panel-default" runat="server">
                     <div class="panel-body" runat="server">

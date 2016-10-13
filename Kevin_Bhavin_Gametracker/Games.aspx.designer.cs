@@ -13,6 +13,15 @@ namespace Kevin_Bhavin_Gametracker {
     public partial class Services {
         
         /// <summary>
+        /// weekno control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label weekno;
+        
+        /// <summary>
         /// gamesdata control.
         /// </summary>
         /// <remarks>

@@ -18,6 +18,8 @@ namespace Kevin_Bhavin_Gametracker.Models
 
         public int? winTeamId { get; set; }
 
+        public int? gameweekId { get; set; }
+
         public virtual LosingTeam LosingTeam { get; set; }
 
         public virtual WinningTeam WinningTeam { get; set; }
