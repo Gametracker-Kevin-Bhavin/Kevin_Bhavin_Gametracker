@@ -48,10 +48,10 @@
                 </ul>
                 <!-- Main navigation tabs-->
                 <ul class="nav navbar-nav">
-                    <li class="active" id="home" runat="server"><a href="Default.aspx"><i class="fa fa-home fa-lg"></i>  Home</a></li>
-                    <li id="games" runat="server"><a href="Games.aspx"><i class="fa fa-th fa-lg"></i>  Games</a></li>
-                    <li id="register" runat="server"><a href="Register.aspx"><i class="fa fa-gear fa-lg"></i>  Register</a></li>
-                    <li id="login" runat="server"><a href="Login.aspx"><i class="fa fa-info fa-lg"></i>  Login</a></li>
+                    <li id="Home" runat="server"><a href="Default.aspx"><i class="fa fa-home fa-lg"></i>  Home</a></li>
+                    <li id="Games" runat="server"><a href="Games.aspx"><i class="fa fa-th fa-lg"></i>  Games</a></li>
+                    <li id="Register" runat="server"><a href="Register.aspx"><i class="fa fa-gear fa-lg"></i>  Register</a></li>
+                    <li id="Login" runat="server"><a href="Login.aspx"><i class="fa fa-info fa-lg"></i>  Login</a></li>
                 </ul>
                 <!-- Kevin logo with link to his portfolio-->
                 <ul class="nav navbar-nav navbar-right">

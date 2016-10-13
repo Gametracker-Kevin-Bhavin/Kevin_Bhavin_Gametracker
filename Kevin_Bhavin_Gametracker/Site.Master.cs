@@ -21,16 +21,16 @@ namespace Kevin_Bhavin_Gametracker
             switch (Page.Title)
             {
                 case "Home":
-                    home.Attributes.Add("class", "active");
+                    Home.Attributes.Add("class", "active");
                     break;
-                case "Game":
-                    games.Attributes.Add("class", "active");
+                case "Games":
+                    Games.Attributes.Add("class", "active");
                     break;
                 case "Register":
-                    register.Attributes.Add("class", "active");
+                    Register.Attributes.Add("class", "active");
                     break;
                 case "Login":
-                    login.Attributes.Add("class", "active");
+                    Login.Attributes.Add("class", "active");
                     break;
             }
         }
