@@ -1,5 +1,21 @@
 ﻿/* custom css goes here */
-body { 
-    padding-bottom: 70px; 
-
+body {
+    background-image: url('../Assets/images/LeagueBackground.jpg') !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+    position: relative !important;
+    width: 85% !important;            
+    height: 610px !important; 
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-bottom: 80px !important;
+}
+@media (max-width: 767px) {
+  .container-fluid, .row {
+    padding:0px !important;
+  }
+  .navbar-header {
+    margin:0px !important;
+  }
 }

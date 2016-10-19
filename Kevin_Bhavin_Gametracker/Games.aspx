@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Games" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Games.aspx.cs" Inherits="Kevin_Bhavin_Gametracker.Services" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="conatainer">
+    <div class="container">
         <div class="row">
             <div class="col-md-offset-3 col-md-6" id="games">
                 <h2>Current Week: <asp:Label runat="server" ID="weekno" Text="40"></asp:Label></h2>  

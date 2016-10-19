@@ -48,15 +48,16 @@
                 </ul>
                 <!-- Main navigation tabs-->
                 <ul class="nav navbar-nav">
-                    <li id="Home" runat="server"><a href="Default.aspx"><i class="fa fa-home fa-lg"></i>  Home</a></li>
                     <li id="Games" runat="server"><a href="Games.aspx"><i class="fa fa-th fa-lg"></i>  Games</a></li>
                     <li id="Register" runat="server"><a href="Register.aspx"><i class="fa fa-gear fa-lg"></i>  Register</a></li>
                     <li id="Login" runat="server"><a href="Login.aspx"><i class="fa fa-info fa-lg"></i>  Login</a></li>
+                    <li id="Logout" runat="server"><a href="Logout.aspx"><i class="fa fa-info fa-lg"></i>  Logout</a></li>
                 </ul>
                 <!-- Kevin logo with link to his portfolio-->
                 <ul class="nav navbar-nav navbar-right">
                     <li class="logopic"><a href="http://e-portfolio-jankevinmujnar.azurewebsites.net/"><img src="Assets/images/kevinlogo.png"  height="100" width="133"/></a></li>
                 </ul>
+                <h5><asp:Label runat="server" ID="CurrentUserText"></asp:Label></h5>
                 </div>
 
                 <!-- /.navbar-collapse -->

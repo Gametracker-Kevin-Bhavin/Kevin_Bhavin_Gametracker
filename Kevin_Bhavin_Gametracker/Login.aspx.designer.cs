@@ -7,56 +7,55 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Kevin_Bhavin_Gametracker
-{
-
-
-    public partial class Contact
+namespace Kevin_Bhavin_Gametracker {
+    
+    
+    public partial class Contact : System.Web.UI.Page
     {
-
+        
         /// <summary>
-        /// FirstNameTextBox control.
+        /// AlertFlash control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox FirstNameTextBox;
-
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl AlertFlash;
+        
         /// <summary>
-        /// LastNameTextBox control.
+        /// StatusLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox LastNameTextBox;
-
+        protected global::System.Web.UI.WebControls.Label StatusLabel;
+        
         /// <summary>
-        /// EmailTextBox control.
+        /// UserNameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox EmailTextBox;
-
+        protected global::System.Web.UI.WebControls.TextBox UserNameTextBox;
+        
         /// <summary>
-        /// ContactNumberTextBox control.
+        /// PasswordTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ContactNumberTextBox;
-
+        protected global::System.Web.UI.WebControls.TextBox PasswordTextBox;
+        
         /// <summary>
-        /// SendButton control.
+        /// LoginButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button SendButton;
+        protected global::System.Web.UI.WebControls.Button LoginButton;
     }
 }

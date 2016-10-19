@@ -14,15 +14,14 @@ namespace Kevin_Bhavin_Gametracker
         {
             Debug.WriteLine(Page.Title + " loaded...");
             SetActivePage();
+
+
         }
 
         private void SetActivePage()
         {
             switch (Page.Title)
             {
-                case "Home":
-                    Home.Attributes.Add("class", "active");
-                    break;
                 case "Games":
                     Games.Attributes.Add("class", "active");
                     break;
@@ -32,6 +31,25 @@ namespace Kevin_Bhavin_Gametracker
                 case "Login":
                     Login.Attributes.Add("class", "active");
                     break;
+            }
+            checkloginlogout();
+        }
+
+        public void checkloginlogout()
+        {
+            if (System.Web.HttpContext.Current.User != null && System.Web.HttpContext.Current.User.Identity.IsAuthenticated)
+            {
+                Login.Visible = false;
+                Logout.Visible = true;
+                CurrentUserText.Visible = true;
+                CurrentUserText.Text = "Current User: " + System.Web.HttpContext.Current.User.Identity.Name.ToString();
+                System.Diagnostics.Debug.WriteLine("Logged in User!");
+            }
+            else
+            {
+                CurrentUserText.Visible = false;
+                Logout.Visible = false;
+                Login.Visible = true;
             }
         }
     }
