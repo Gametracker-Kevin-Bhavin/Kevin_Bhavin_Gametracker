@@ -117,7 +117,7 @@ namespace Kevin_Bhavin_Gametracker
                     Label loseteamloses = new Label();
 
                     // Let the Panels go side by side
-                    divmd.Attributes.Add("class", "col-md-4");
+                    divmd.Attributes.Add("class", "col-md-6");
 
                     // Bootstrap the Panel  
                     newgamePanel.CssClass = "panel panel-default";
