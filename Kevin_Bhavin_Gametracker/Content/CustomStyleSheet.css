@@ -66,6 +66,15 @@ img{
 /* custom css goes here by Bhavin */
 body {
     background-image: url('../Assets/images/LeagueBackground.jpg') !important;
+    background-attachment: fixed !important;
+    background-size:cover !important;
+    background-repeat:no-repeat !important;
+    position:relative !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100% !important;
+    height: 100% !important;
+    padding-bottom: 50px !important; 
 }
 
 @media (max-width: 767px) {
